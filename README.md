@@ -1,5 +1,3 @@
-## spatial_scripts
-
 ### 1_raster_extent_to_shp.py:
 #### Description:
 Creates shapefile of extent of raster/s using its bounding box in the input directory (checks all sub directories as well).
@@ -9,7 +7,6 @@ A directory path and the raster file extension (make sure you add it this way fo
 shapefiles of raster extents
 #### Requirements:
 need fiona, rasterio, shapely and pathlib
-
 
 ## 2_.py:
 #### Description:
