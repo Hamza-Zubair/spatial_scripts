@@ -8,9 +8,9 @@ shapefiles of raster extents
 #### Requirements:
 need fiona, rasterio, shapely and pathlib
 
-## 2_.py:
+## 2_clip_vector_to_raster.py:
 #### Description:
-On the contrarty to usual clip function, this script clips large vector into small subsets based on raster
+On the contrarty to usual clip function, this script clips large vector into small subsets basis of raster
 #### Input:
 A directory path, shapefile absolute path with extension and the raster file extension (make sure you add it this way for instance for geotiff write .tif)
 #### Output:
