@@ -17,3 +17,14 @@ A directory path, shapefile absolute path with extension and the raster file ext
 clipped shapefiles if they overlay the rasters from the input directory
 #### Requirements:
 need rasterio, shapely, pandas, geopandas and pathlib
+
+## 3_pointcloud_to_shp.py:
+#### Description:
+Takes the directory as input, scans for pointcloud files (any .LAS or .LAZ files) and creates shapefile of the bounding box of pointclouds.
+#### Input:
+A directory path containing point cloud files.
+#### Output:
+shapefile generated for bbox of any/all point cloud files found in the directory
+#### Requirements:
+need shapely, geopandas and pathlib, subprocess, timeit. Also pdal should be installed. change the terminal in VS code so subprocess can access pdal external command.
+Also to make sure output is written in script's location check: Go to File > Preferences > Settings and Search for "Execute in File Path".
